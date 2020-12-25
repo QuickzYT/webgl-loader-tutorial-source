@@ -1,0 +1,47 @@
+.webgl-content * {border: 0; margin: 0; padding: 0}
+.webgl-content {position: absolute; top: 50%; left: 50%; -webkit-transform: translate(-50%, -50%); transform: translate(-50%, -50%);}
+
+.webgl-content .footer {margin-top: 5px; height: 38px; line-height: 38px; font-family: Helvetica, Verdana, Arial, sans-serif; font-size: 18px;}
+.webgl-content .footer .webgl-logo, .title, .fullscreen {height: 100%; display: inline-block; background: transparent center no-repeat;}
+.webgl-content .footer .webgl-logo {background-image: url('webgl-logo.png'); width: 204px; float: left;}
+.webgl-content .footer .title {margin-right: 10px; float: right;}
+.webgl-content .footer .fullscreen {background-image: url('fullscreen.png'); width: 38px; float: right;}
+
+#custom-logo, #custom-loader {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#custom-logo {
+    background-image: url('Loading Icon.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+
+    width: 200px;
+    height: 200px;
+}
+
+#custom-loader {
+    margin-top: 155px;
+    width: 80%;
+    height: 50px;
+    background: lightgray;
+    box-shadow: 0px 0px 15px 5px black;
+}
+
+#custom-loader .fill {
+    width: 0%;
+    height: 100%;
+    background: red;
+}
+
+#custom-loader .label {
+    position: relative;
+    top: -44px;
+    font-size: 35px;
+    text-align: center;
+    font-family: sans-serif, calibri;
+}
